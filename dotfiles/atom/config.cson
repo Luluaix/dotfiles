@@ -1,0 +1,18 @@
+"*":
+  core:
+    automaticallyUpdate: false
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  editor:
+    fontSize: 13
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "a964bada-e224-4f82-955f-0987e4fe9d4a"
+  "linter-clang":
+    clangDefaultCFlags: "-Wall -Wextra -Werror"
+  "linter-ui-default":
+    showPanel: true
+  minimap: {}
+  welcome:
+    showOnStartup: false

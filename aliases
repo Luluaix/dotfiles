@@ -1,0 +1,43 @@
+ALIAS
+
+# Commands
+  l       -> ls -l
+  la      -> ls -la
+  reload  -> source ~/.zshrc
+  zrc     -> vim ~/.zshrc
+  42fc    -> sh ~/42FileChecker/42FileChecker.sh
+
+# Change directory
+
+  goinfre  -> ~/goinfre
+
+  dev          -> ~/Documents/dev
+  config          -> config
+  docs            -> documents
+  prog            -> projects
+  42                 -> 42
+  algo                  -> algo
+  prf                      -> ft_printf
+  flr                      -> filler
+  lem                      -> lem_in
+  cor                      -> corewar
+
+  system                -> system
+  ftls                     -> ft_ls
+
+  graph                 -> graph
+  fdf                      -> fdf
+
+  piscines              -> piscines
+  piscinec                 -> piscine_c
+  pisciner                 -> piscine_reloaded
+  piscinep                 -> piscine_php
+
+  pre                   -> preambule
+  libft                    -> libft
+  fillit                   -> fillit
+  gnl                      -> get_next_line
+  init                     -> init
+
+  tls                   -> tools
+  lib                   -> library

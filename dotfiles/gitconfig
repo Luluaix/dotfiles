@@ -1,0 +1,5 @@
+[core]
+	excludesfile = ~/.gitexcludes
+[user]
+	name = Philippe Damoune
+	email = pdamoune@student.42.fr
