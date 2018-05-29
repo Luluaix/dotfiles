@@ -4,7 +4,6 @@
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
   editor:
-    fontSize: 13
     tabLength: 4
     tabType: "hard"
   "exception-reporting":

@@ -128,7 +128,10 @@ alias config="alias_git config"
 alias docs="alias_git documents"
 alias prog="alias_fold projects"
 alias 42="alias_fold 42 projects"
-alias ibm="alias_fold ibm projects"
+alias ibm="alias_git ibm projects"
+
+	# IBM
+	alias api="alias_fold api ibm projects"
 
 	# 42
 	alias algo="alias_fold algo 42 projects"
