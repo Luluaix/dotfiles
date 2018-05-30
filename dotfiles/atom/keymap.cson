@@ -43,5 +43,5 @@
 'atom-text-editor':
   'cmd-alt-l': 'editor:auto-indent'
  'atom-text-editor:not([mini])':
-  'tab': 'emmet:expand-abbreviation-with-tab'
+  # 'tab': 'emmet:expand-abbreviation-with-tab'
   'ctrl-shift-h': 'atom-html-preview:toggle'
