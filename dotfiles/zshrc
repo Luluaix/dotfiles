@@ -114,6 +114,7 @@ function alias_fold
 alias l="ls -l"
 alias la="ls -la"
 alias reload="source ~/.zshrc"
+alias reloadibm="source $DEV/projects/ibm/api/project/py3_ibm/bin/activate"
 alias zrc="vim $HOME/.zshrc;source ~/.zshrc"
 alias 42fc="sh $HOME/42FileChecker/42FileChecker.sh"
 alias goinfre="cd ~/goinfre"
@@ -124,6 +125,7 @@ alias gac="git add . && git commit -m ${1}"
 
 alias dev="cd $DEV"
 alias config="alias_git config"
+alias tls="alias_git tools"
 
 alias docs="alias_git documents"
 alias prog="alias_fold projects"
@@ -139,7 +141,6 @@ alias ibm="alias_git ibm projects"
 	alias graph="alias_fold graph 42 projects"
 	alias piscines="alias_fold piscines 42 projects"
 	alias pre="alias_fold preambule 42 projects"
-	alias tls="alias_git tools 42 projects"
 	alias lib="alias_git library 42 projects"
 
 		# Piscines

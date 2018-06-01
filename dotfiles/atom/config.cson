@@ -1,4 +1,6 @@
 "*":
+  "atom-beautify":
+    xml: {}
   core:
     automaticallyUpdate: false
     packagesWithKeymapsDisabled: []
