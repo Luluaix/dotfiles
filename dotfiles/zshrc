@@ -122,6 +122,7 @@ alias cpmakefile="cp $DEV/projects/Makefile ."
 alias als="cat $DEV/config/aliases | less"
 alias gitck="sh $DEV/config/scripts/checkgit.sh"
 alias gac="git add . && git commit -m ${1}"
+alias py=python3
 
 alias dev="cd $DEV"
 alias config="alias_git config"
@@ -147,7 +148,7 @@ alias ibm="alias_git ibm projects"
 		alias piscinec="alias_git piscine_c piscines 42 projects"
 		alias pisciner="alias_git piscine_reloaded piscines 42 projects"
 		alias piscinep="alias_git piscine_php piscines 42 projects"
-		alias piscinepy="alias_git piscine_python piscines 42 projects"
+		alias pys="alias_git piscine_python piscines 42 projects"
 
 		# Preambule
 		alias libft="alias_git libft preambule 42 projects"

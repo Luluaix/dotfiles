@@ -42,6 +42,6 @@
   'alt-cmd-right': 'window:focus-pane-on-right'
 'atom-text-editor':
   'cmd-alt-l': 'editor:auto-indent'
+  'ctrl-f': 'kite:search'
  'atom-text-editor:not([mini])':
-  # 'tab': 'emmet:expand-abbreviation-with-tab'
   'ctrl-shift-h': 'atom-html-preview:toggle'

@@ -3,6 +3,10 @@
     xml: {}
   core:
     automaticallyUpdate: false
+    disabledPackages: [
+      "markdown-preview"
+      "linter-flake8"
+    ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
   editor:
@@ -10,10 +14,15 @@
     tabType: "hard"
   "exception-reporting":
     userId: "a964bada-e224-4f82-955f-0987e4fe9d4a"
+  kite:
+    editorMetricsEnabled: "yes"
+    hideDocumentationWhenSignatureIsAvailable: false
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
   "linter-ui-default":
     showPanel: true
+  "markdown-preview-plus":
+    previewConfig: {}
   minimap: {}
   welcome:
     showOnStartup: false
