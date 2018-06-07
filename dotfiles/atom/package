@@ -1,0 +1,16 @@
+total 8
+-rw-r--r--   1 damoune  staff    60 28 mai 15:24 README.md
+drwxr-xr-x  39 damoune  staff  1248 31 mai 18:00 atom-beautify
+drwxr-xr-x  13 damoune  staff   416  5 jui 17:12 autocomplete-python
+drwxr-xr-x  17 damoune  staff   544 29 mai 11:11 busy-signal
+drwxr-xr-x  17 damoune  staff   544  5 jui 17:15 file-icons
+drwxr-xr-x  13 damoune  staff   416 29 mai 11:11 header-42
+drwxr-xr-x  12 damoune  staff   384  5 jui 17:11 hyperclick
+drwxr-xr-x  20 damoune  staff   640 29 mai 11:11 intentions
+drwxr-xr-x  20 damoune  staff   640  7 jui 14:40 kite
+drwxr-xr-x  20 damoune  staff   640 29 mai 11:11 linter
+drwxr-xr-x  13 damoune  staff   416 29 mai 11:11 linter-clang
+drwxr-xr-x  16 damoune  staff   512  6 jui 10:15 linter-pylama
+drwxr-xr-x  19 damoune  staff   608 29 mai 11:11 linter-ui-default
+drwxr-xr-x  31 damoune  staff   992  5 jui 17:38 markdown-preview-plus
+drwxr-xr-x  21 damoune  staff   672 29 mai 11:11 minimap

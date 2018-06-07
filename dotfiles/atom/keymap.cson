@@ -43,5 +43,7 @@
 'atom-text-editor':
   'cmd-alt-l': 'editor:auto-indent'
   'ctrl-f': 'kite:search'
+  'alt-cmd-o': 'kite:open-sidebar'
+  'alt-cmd-k': 'kite:close-sidebar'
  'atom-text-editor:not([mini])':
   'ctrl-shift-h': 'atom-html-preview:toggle'

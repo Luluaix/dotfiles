@@ -5,13 +5,11 @@
     automaticallyUpdate: false
     disabledPackages: [
       "markdown-preview"
-      "linter-flake8"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
   editor:
     tabLength: 4
-    tabType: "hard"
   "exception-reporting":
     userId: "a964bada-e224-4f82-955f-0987e4fe9d4a"
   kite:
@@ -19,6 +17,10 @@
     hideDocumentationWhenSignatureIsAvailable: false
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
+  "linter-pylama":
+    interpreter: "python3"
+    usePep257: false
+    usePyflakes: false
   "linter-ui-default":
     showPanel: true
   "markdown-preview-plus":
