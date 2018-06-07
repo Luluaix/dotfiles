@@ -10,6 +10,7 @@
     telemetryConsent: "no"
   editor:
     tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "a964bada-e224-4f82-955f-0987e4fe9d4a"
   kite:
