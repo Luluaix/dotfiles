@@ -16,6 +16,7 @@
   kite:
     editorMetricsEnabled: "yes"
     hideDocumentationWhenSignatureIsAvailable: false
+    showWelcomeNotificationOnStartup: false
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
   "linter-pylama":
