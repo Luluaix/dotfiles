@@ -18,5 +18,5 @@ find ${DEV} -name .git | sed 's/....$//' | awk '{
 	git -C "$1 " status -s | \
 	if wc -l | grep -q '[1-9]' \
 	then git -C "$1 " status && sh $CFG/scripts/gitcommit.sh " $1 " \
-	else git -C "$1 " status -s; \
+    else git -C "$1 " status -s && git -C "$1 " pull \
 	fi" )}'
