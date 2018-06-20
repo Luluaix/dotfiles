@@ -16,6 +16,7 @@
   kite:
     editorMetricsEnabled: "yes"
     hideDocumentationWhenSignatureIsAvailable: false
+    showEditorVacanciesNotificationOnStartup: false
     showWelcomeNotificationOnStartup: false
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
@@ -23,8 +24,7 @@
     interpreter: "python3"
     usePep257: false
     usePyflakes: false
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-preview-plus":
     previewConfig: {}
   minimap: {}
