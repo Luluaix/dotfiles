@@ -175,4 +175,3 @@ alias ibm="alias_git ibm projects"
 
 			# System
 			alias ftls="alias_git ft_ls system 42 projects"
-. /Users/damoune/.conda/etc/profile.d/conda.sh
