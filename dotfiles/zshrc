@@ -7,7 +7,12 @@ export DEV="$HOME/Documents/dev"
 export PRJ="$HOME/Documents/dev/projects"
 export ZSH="$DEV/config/dotfiles/oh-my-zsh"
 export CFG="$DEV/config"
-export PATH=~/.brew/bin:/usr/bin:$PATH
+BREW=~/.brew/bin
+CONDA=~/.conda/bin
+SYSTEM=/user/bin
+GO=/usr/local/go/bin
+
+export PATH=$BREW:$CONDA:$SYSTEM:$GO:$PATH
 export GITHUB="https://github.com/pdamoune"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -122,7 +127,10 @@ alias cpmakefile="cp $DEV/projects/Makefile ."
 alias als="cat $DEV/config/aliases | less"
 alias gitck="sh $DEV/config/scripts/checkgit.sh"
 alias gac="git add . && git commit -m ${1}"
+alias python=python3
 alias py=python3
+alias act="source .envrc"
+alias deact="conda deactivate"
 
 alias dev="cd $DEV"
 alias config="alias_git config"
@@ -167,3 +175,4 @@ alias ibm="alias_git ibm projects"
 
 			# System
 			alias ftls="alias_git ft_ls system 42 projects"
+. /Users/damoune/.conda/etc/profile.d/conda.sh
