@@ -7,6 +7,7 @@ export DEV="$HOME/Documents/dev"
 export PRJ="$HOME/Documents/dev/projects"
 export ZSH="$DEV/config/dotfiles/oh-my-zsh"
 export CFG="$DEV/config"
+export WORKON_HOME=$HOME/Envs
 BREW=~/.brew/bin
 CONDA=~/.conda/bin
 SYSTEM=/user/bin
@@ -63,7 +64,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-
+source $HOME/.conda/bin/virtualenvwrapper.sh
 
 # User configuration
 
@@ -130,7 +131,7 @@ alias gac="git add . && git commit -m ${1}"
 alias python=python3
 alias py=python3
 alias act="source .envrc"
-alias deact="conda deactivate"
+alias deact="deactivate"
 
 alias dev="cd $DEV"
 alias config="alias_git config"
