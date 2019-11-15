@@ -35,6 +35,7 @@
   'alt-cmd-down': 'unset!'
   'alt-cmd-left': 'unset!'
   'alt-cmd-right': 'unset!'
+  'alt-cmd-j': 'atom-alignment:alignMultiple'
 'body':
   'alt-cmd-left': 'window:focus-pane-on-left'
   'alt-cmd-up': 'window:focus-pane-above'
@@ -43,7 +44,9 @@
 'atom-text-editor':
   'cmd-alt-l': 'editor:auto-indent'
   'ctrl-f': 'kite:search'
-  'alt-cmd-o': 'kite:open-sidebar'
-  'alt-cmd-k': 'kite:close-sidebar'
+  'cmd-alt-o': 'kite:open-sidebar'
+  'cmd-alt-k': 'css-comb:comb'
+  'cmd-alt-m': 'markdown-preview-plus:toggle'
  'atom-text-editor:not([mini])':
   'ctrl-shift-h': 'atom-html-preview:toggle'
+  'cmd-alt-s': 'linter-eslint:fix-file'

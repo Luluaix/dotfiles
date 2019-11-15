@@ -9,11 +9,9 @@ export ZSH="$DEV/config/dotfiles/oh-my-zsh"
 export CFG="$DEV/config"
 export WORKON_HOME=$HOME/Envs
 BREW=~/.brew/bin
-CONDA=~/.conda/bin
 SYSTEM=/user/bin
-GO=/usr/local/go/bin
 
-export PATH=$BREW:$CONDA:$SYSTEM:$GO:$PATH
+export PATH=$BREW:$SYSTEM:$PATH
 export GITHUB="https://github.com/pdamoune"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -64,7 +62,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-source $HOME/.conda/bin/virtualenvwrapper.sh
 
 # User configuration
 
@@ -141,6 +138,7 @@ alias docs="alias_git documents"
 alias prog="alias_fold projects"
 alias 42="alias_fold 42 projects"
 alias ibm="alias_git ibm projects"
+alias poly="alias_git polyconseil projects"
 
 	# IBM
 	alias api="alias_fold api ibm projects"

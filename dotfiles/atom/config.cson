@@ -1,15 +1,18 @@
 "*":
   "atom-beautify":
     xml: {}
+  "atom-ternjs": {}
+  "autocomplete-modules": {}
   core:
     automaticallyUpdate: false
     disabledPackages: [
       "markdown-preview"
+      "linter-jshint"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
   editor:
-    tabLength: 4
+    fontSize: 13
     tabType: "soft"
   "exception-reporting":
     userId: "a964bada-e224-4f82-955f-0987e4fe9d4a"
@@ -18,15 +21,41 @@
     hideDocumentationWhenSignatureIsAvailable: false
     showEditorVacanciesNotificationOnStartup: false
     showWelcomeNotificationOnStartup: false
+  "language-babel":
+    autoIndentJSX: true
+  linter: {}
   "linter-clang":
     clangDefaultCFlags: "-Wall -Wextra -Werror"
+  "linter-eslint":
+    autofix:
+      ignoreFixableRulesWhileTyping: true
+    disabling:
+      disableWhenNoEslintConfig: false
+    global: {}
+    scopes: [
+      "source.tsx"
+      "source.ts"
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.flow"
+      "source.babel"
+      "source.js-semantic"
+    ]
+  "linter-jshint": {}
   "linter-pylama":
     interpreter: "python3"
     usePep257: false
     usePyflakes: false
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview-plus":
     previewConfig: {}
   minimap: {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierEslintOptions: {}
+    useEslint: true
   welcome:
     showOnStartup: false
